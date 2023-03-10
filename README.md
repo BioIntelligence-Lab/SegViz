@@ -21,6 +21,13 @@ We have shared the following notebooks -
 
 - generate_metrics_Segviz_anon.ipynb - This notebook can be used to generate the dice metrics during model evaluation. 
 
+## Results
+
+### On the Internal Validation dataset
+![int_valid_metrics](https://user-images.githubusercontent.com/22454450/224231779-4c3e0ed9-0c3f-4747-8e1b-c3313e355b7f.png)
+
+### On the external BTCV dataset
+![btcv_metrics](https://user-images.githubusercontent.com/22454450/224231781-0b2b33ec-8ae1-4d33-8050-baaac11b576a.png)
 
 To reproduce all the experiments successfully, please clone this repository locally and initiate a conda virtual environment using the given `environment.yml` file using 
 
