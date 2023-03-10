@@ -9,7 +9,7 @@ To replicate our work, you will need the following datasets:
 - We use all the 30 training samples from the [Beyond the Cranial Vault datasets](https://www.synapse.org/#!Synapse:syn3193805/wiki/89480\n)
 
 
-We have the following notebooks for your reference -
+We have shared the following notebooks -
 
 - W&B_SegViz_3d_LSPK_combined_anon.ipynb - You will need to consolidate all the samples from the training set of all the four datasets and store it in the MSD format. Then you can pass your path to the `root_dir` variable in the notebook. 
 
@@ -34,3 +34,7 @@ Simply run the notebooks using this conda environment.
 ## Other specific parameters
 
 - Set the MONAI seed '0' for reproducibilty - Changing this value can cause variations in your results. 
+
+## Trained models
+
+All the trained models are available to download from the `models` folder
