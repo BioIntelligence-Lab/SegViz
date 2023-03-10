@@ -1,6 +1,6 @@
 # Official implementation of SegViz: A federated-learning based framework for multi-organ segmentation on heterogeneous data sets with partial annotations
 
-![Depiction of the SegViz framework](./assets/Segviz_fig.png)
+![SegViz figure](https://user-images.githubusercontent.com/22454450/224231573-83a70f40-8269-47bc-8e0f-e2d39aaf70af.png)
 
 To replicate our work, you will need the following datasets:
 
