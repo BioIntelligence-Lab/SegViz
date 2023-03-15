@@ -44,4 +44,4 @@ Simply run the notebooks using this conda environment.
 
 ## Trained models
 
-All the trained models are available to download from the `models` folder
+All the trained models will be available to download from the `models` folder soon
