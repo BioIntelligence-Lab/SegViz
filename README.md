@@ -25,10 +25,10 @@ All notebooks are inspired from the official MONAI implementations and tutorials
 ## Results
 
 ### On the Internal Validation dataset
-![int_valid_metrics](https://user-images.githubusercontent.com/22454450/224231779-4c3e0ed9-0c3f-4747-8e1b-c3313e355b7f.png)
+![int_metrics](https://user-images.githubusercontent.com/22454450/232371897-3e202711-9e61-469b-9d04-687e7b5f951b.png)
 
 ### On the external BTCV dataset
-![btcv_metrics](https://user-images.githubusercontent.com/22454450/224231781-0b2b33ec-8ae1-4d33-8050-baaac11b576a.png)
+![btcv_metrics](https://user-images.githubusercontent.com/22454450/232371944-3bd5ee1c-e631-478c-a4f9-3d82767f41df.png)
 
 To reproduce all the experiments successfully, please clone this repository locally and initiate a conda virtual environment using the given `environment.yml` file using 
 
