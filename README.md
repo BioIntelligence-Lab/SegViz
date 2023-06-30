@@ -20,15 +20,15 @@ conda env create -f environment.yml
 We have shared the following notebooks -
 All notebooks are inspired by MONAI implementations
 
-- W&B_SegViz_3d_LSPK_combined_anon.ipynb - This notebook demonstrates training a single model in a centrally aggregated model setup for multi-task segmentation. You will need to consolidate all the data from the training sets of all four datasets and ensure that it is in compliance with the [MSD data format](https://github.com/MIC-DKFZ/nnUNet/blob/nnunetv1/documentation/dataset_conversion.md). Then you can pass your path to the `root_dir` variable in the notebook. 
+- [W&B_SegViz_3d_LSPK_combined_anon.ipynb](/notebooks/W&B_SegViz_3d_LSPK_combined_anon.ipynb) - This notebook demonstrates training a single model in a centrally aggregated model setup for multi-task segmentation. You will need to consolidate all the data from the training sets of all four datasets and ensure that it is in compliance with the [MSD data format](https://github.com/MIC-DKFZ/nnUNet/blob/nnunetv1/documentation/dataset_conversion.md). Then you can pass your path to the `root_dir` variable in the notebook. 
 
-- W&B_SegViz_3d_liver_only_128_rescrop_anon.ipynb - This is the notebook to train the liver baseline model i.e the model trained specifically for the liver dataset but can be extrapolated to other organs. To run this notebook, simply change the `root_dir` in the notebook to your local path. 
+- [W&B_SegViz_3d_liver_only_128_rescrop_anon.ipynb](/notebooks/W&B_SegViz_3d_liver_only_128_rescrop_anon.ipynb) - This is the notebook to train the liver baseline model i.e the model trained specifically for the liver dataset but can be extrapolated to other organs. To run this notebook, simply change the `root_dir` in the notebook to your local path. 
 
-- W&B_SegViz_3d_liver_spleen_pan_kid_multi_FT_anon.ipynb - This notebook demonstrates training a distributed FL setup using the FedAvg algorithm for the four datasets - Each client node is trained for one of the four datasets. The global model is initialized and aggregates certain weights of each model and returns it back to nodes after every 10 iterations. This process is continued for 50 rounds of communication (for a total of 500 epochs). This script also shows how to fine-tune the models on the local datasets after running the entire FL setup. 
+- [W&B_SegViz_3d_liver_spleen_pan_kid_multi_FT_anon.ipynb](/notebooks/W&B_SegViz_3d_liver_spleen_pan_kid_multi_FT_anon.ipynb) - This notebook demonstrates training a distributed FL setup using the FedAvg algorithm for the four datasets - Each client node is trained for one of the four datasets. The global model is initialized and aggregates certain weights of each model and returns it back to nodes after every 10 iterations. This process is continued for 50 rounds of communication (for a total of 500 epochs). This script also shows how to fine-tune the models on the local datasets after running the entire FL setup. 
 
-- W&B_SegViz_3d_liver_spleen_pan_kid_multi_FT_FedBN_anon.ipynb - This notebook demonstrates running the same setup as above but with the FedBN strategy.
+- [W&B_SegViz_3d_liver_spleen_pan_kid_multi_FT_FedBN_anon.ipynb](/notebooks/W&B_SegViz_3d_liver_spleen_pan_kid_multi_FT_FedBN_anon.ipynb) - This notebook demonstrates running the same setup as above but with the FedBN strategy.
 
-- generate_metrics_Segviz_anon.ipynb - This notebook can be used to generate the dice metrics for model evaluation. You must have all four models from the FL setup already trained.  
+- [generate_metrics_Segviz_anon.ipynb](/notebooks/generate_metrics_Segviz_anon.ipynb) - This notebook can be used to generate the dice metrics for model evaluation. You must have all four models from the FL setup already trained.  
 
 ## Results
 
