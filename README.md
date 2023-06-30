@@ -1,4 +1,4 @@
-#![Um2ii](https://pbs.twimg.com/profile_images/1426282841806098433/DQQvEl7d_400x400.jpg)
+# ![Um2ii](https://pbs.twimg.com/profile_images/1426282841806098433/DQQvEl7d_400x400.jpg)
 
 # Official implementation of SegViz: A federated-learning based framework for multi-organ segmentation on heterogeneous data sets with partial annotations
 
