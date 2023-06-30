@@ -1,3 +1,5 @@
+[![arXiv](https://img.shields.io/badge/arXiv-2108.13637-red.svg?style=flat)](https://arxiv.org/abs/2301.07074)
+
 
 # Official implementation of SegViz: A federated-learning based framework for multi-organ segmentation on heterogeneous data sets with partial annotations
 
